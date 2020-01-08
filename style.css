@@ -1,0 +1,50 @@
+body {
+    background-color: floralwhite;
+    background-image: url(gambar/lufy.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 500px;
+}
+
+h1,
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    font-variant: small-caps;
+    color: mediumslateblue;
+}
+
+p {
+    font-family: century;
+    font-weight: lighter;
+    line-height: 20px;
+    text-align: justify;
+    text-indent: 50px;
+    text-transform: capitalize;
+}
+
+
+/* css memanggil a yang ada p nya */
+
+p a {
+    text-decoration: none;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    color: darkslategray;
+}
+
+ul li a {
+    color: maroon;
+}
+
+ol li a {
+    color: crimson;
+}
+
+
+/* css memanggil class */
+
+.pragh1 {
+    font-family: Georgia;
+}
