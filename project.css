@@ -1,0 +1,38 @@
+body {
+    background-color: floralwhite;
+    background-image: url(gambar/lufy.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 500px;
+}
+
+.hello,
+a {
+    text-decoration: none;
+    color: black
+}
+
+.hello:hover {
+    color: orange;
+}
+
+.hello:active {
+    color: maroon;
+    font-family: Arial;
+    font-size: 50px;
+}
+
+li:first-child a,
+li:last-child a,
+li:nth-child(5) a,
+li:nth-child(7n+1) a {
+    color: rgb(187, 7, 82);
+}
+
+li:last-child a:hover {
+    color: goldenrod
+}
+
+p:first-of-type {
+    color: green;
+}

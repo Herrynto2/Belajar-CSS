@@ -21,3 +21,16 @@
      background-repeat: no-repeat;                  (membuat atau menghilangkan pengulangan bg gambar)
      background-position: top center;               (posisi bg gambar)
      background-size: 500px;                        (ukuran bg gambar)
+
+#Pseudo Class Link  
+     class : link                                  (Keadaan default link)
+     class : hover                                 (Ketika cursor mouse berada diatas link)
+     class : active                                (Saat link sudah di klik)
+     class : visited                               (Saat sebuah link sudah pernah dikunjungi sebelumnya)
+     #Digunakan jika terdapat mother and child pada sebuah list
+     class : first-child                           (Untuk select di list bagian pertama)
+     class : last-child                            (Untuk select di list bagian terakhir)
+     class : nth-child(odd(genap)/even(ganjil)/n)  (Untuk select di list bagian spesifik)
+     #digunakan pada list/paragraph tanpa mother and child
+     class : first-of-type
+     class : last-of-type
