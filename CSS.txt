@@ -1,0 +1,23 @@
+#Font Style
+     font-family: Arial, Helvetica, sans-serif;     (Jenis Font)
+     font-size: 50px;                               (Ukuran Font)
+     font-style: italic;                            (Gaya Font)
+     font-variant: small-caps;                      (Huruf Besar atau Kecil)
+     font-weight: lighter;                          (Ketebalan Font)
+     line-height: 20px;                             (Jarak Antar Baris)
+
+#Text Style
+     color: maroon;                                 (Warna text)
+     text-align: justify;                           (Paragraph pada text)
+     text-indent: 50px;                             (Jarak paragraph di baris pertama)
+     text-transform: capitalize;                    (Kapital, kecil atau besar)
+     text-decoration: none;                         (Membuat atau menghilangkan underline)
+     letter-spacing: 10px;                          (Jarak antar huruf)
+     word-spacing: 20px;                            (Jarak antar kata)
+
+#Background Style
+     background-color: floralwhite;                 (Warna bg)
+     background-image: url(gambar/lufy.png);        (membuat bg gambar)
+     background-repeat: no-repeat;                  (membuat atau menghilangkan pengulangan bg gambar)
+     background-position: top center;               (posisi bg gambar)
+     background-size: 500px;                        (ukuran bg gambar)
