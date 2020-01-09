@@ -1,0 +1,21 @@
+ul#food li {
+    color: rgb(238, 115, 115);
+}
+
+
+/*  atau
+#food {
+    color: lightcoral;
+}
+*/
+
+ul#food li.favorit {
+    color: rgb(22, 141, 135);
+}
+
+
+/* atau
+.favorit {
+    color: lightseagreen;
+}
+*/

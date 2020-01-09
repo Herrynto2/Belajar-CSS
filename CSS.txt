@@ -1,4 +1,4 @@
-#Font Style
+#Font Style (project1)
      font-family: Arial, Helvetica, sans-serif;     (Jenis Font)
      font-size: 50px;                               (Ukuran Font)
      font-style: italic;                            (Gaya Font)
@@ -6,7 +6,7 @@
      font-weight: lighter;                          (Ketebalan Font)
      line-height: 20px;                             (Jarak Antar Baris)
 
-#Text Style
+#Text Style (project1)
      color: maroon;                                 (Warna text)
      text-align: justify;                           (Paragraph pada text)
      text-indent: 50px;                             (Jarak paragraph di baris pertama)
@@ -15,14 +15,14 @@
      letter-spacing: 10px;                          (Jarak antar huruf)
      word-spacing: 20px;                            (Jarak antar kata)
 
-#Background Style
+#Background Style (project1)
      background-color: floralwhite;                 (Warna bg)
      background-image: url(gambar/lufy.png);        (membuat bg gambar)
      background-repeat: no-repeat;                  (membuat atau menghilangkan pengulangan bg gambar)
      background-position: top center;               (posisi bg gambar)
      background-size: 500px;                        (ukuran bg gambar)
 
-#Pseudo Class Link  
+#Pseudo Class Link (project2) 
      class : link                                  (Keadaan default link)
      class : hover                                 (Ketika cursor mouse berada diatas link)
      class : active                                (Saat link sudah di klik)
@@ -34,3 +34,18 @@
      #digunakan pada list/paragraph tanpa mother and child
      class : first-of-type
      class : last-of-type
+
+#Specificity (Project3)
+     Id - class - Html : 0 - 0 - 0
+     Jika kejadian sebuah program tidak berubah css nya dikarenakan memiliki selector yang sama maka lakukan Specificity
+     Specificity akan bernilai 1 pada setiap selectorny, specificity yang nilainya lebih besar maka akan menimpa yang 
+     lebih kecil.
+     contoh :
+     ul#id li         =>  1 0 2    (2)
+     ul#id li.class   =>  1 1 2    (1)
+     p#id             =>  1 0 1    (3)
+     p.class          =>  0 1 1    (4)
+     http://specificity.keegan.st
+  
+
+
