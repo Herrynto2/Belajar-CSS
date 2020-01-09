@@ -31,7 +31,7 @@
      class : first-child                           (Untuk select di list bagian pertama)
      class : last-child                            (Untuk select di list bagian terakhir)
      class : nth-child(odd(genap)/even(ganjil)/n)  (Untuk select di list bagian spesifik)
-     #digunakan pada list/paragraph tanpa mother and child
+     #Digunakan pada list/paragraph tanpa mother and child
      class : first-of-type
      class : last-of-type
 
@@ -46,6 +46,45 @@
      p#id             =>  1 0 1    (3)
      p.class          =>  0 1 1    (4)
      http://specificity.keegan.st
-  
+
+#Gambar (layout)
+     Memposisikan gambar ditengah 
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+     memposisikan gambar di kanan 
+            margin-left: auto;
+            display: block;
+
+#Display (layout1)
+     Setiap tag html terdapat dalam kotak dan display mengatur sifat dari kotak tersebut
+     1. inline (default)
+          Element yang tidak menambahkan baris baru, tidak bisa diatur width dan heightnya 
+          dan lebar dan tinggi elemennya sesuai kontent didalamnya.
+          contoh (img, span, sub, sup, button, input, label, select, textarea, a, b, strong, i, em)
+     2. inline-block
+          Element yang tetap dalam baris tersebut tetapi bisa diatur width dan heighnya
+          Tidak ada property yang namanya inline-block karena ini harus diubah secara manual di css.
+     3. block (default)
+          Kebalikan dari element inline
+          Contoh (h1-h6, p, ol, ul, li, form, hr, div) 
+     4. none
+          Menghilangkan sebuah element
+     Kasus :
+          Jika kita ingin mengubah display default dgn yg lain bisa menambahkan di cssnya
+          display : inline/block/inline-block/none;
+
+#OverFlow
+     .class : Scroll (untuk membuat scroll)
+     .class : hidden (Untuk menghilangkan text di paling bawah)
+     .class : Auto   (Untuk membuat scroll jika textnya melebihi height)
+
+#Margin 
+     Bagian transparan diluar border
+     margin: atas (kanan kiri) bawah; atas (kanan kiri); atas kanan bawah kiri;
+     margin-top: 10px;
+     margin-right: -10px;
+     margin-bottom: Auto(Menuju center);
+     margin-left: ;
 
 
