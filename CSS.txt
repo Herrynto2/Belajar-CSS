@@ -81,10 +81,31 @@
 
 #Margin 
      Bagian transparan diluar border
-     margin: atas (kanan kiri) bawah; atas (kanan kiri); atas kanan bawah kiri;
+     margin: atas (kanan kiri) bawah; (atas bawah) (kanan kiri); atas kanan bawah kiri; (atas kanan bawah kiri);
      margin-top: 10px;
      margin-right: -10px;
      margin-bottom: Auto(Menuju center);
      margin-left: ;
 
+#Border
+     Batas antara margin dan padding
+     Tidak bisa dikasih nilai negatif dan auto
+     border : ;
+     border-top: 5px solid red;
+     border-right: 5px dotted red;
+     border-bottom: 5px dashed red;
+     border-left: 5px double red;
+     
+#Padding
+     Bagian transparan disekitar kontent
+     Tidak bisa dikasih nilai negatif dan auto
+     Ukuran box bisa berubah
+     padding: atas (kanan kiri) bawah; (atas bawah) (kanan kiri); atas kanan bawah kiri; (atas kanan bawah kiri);
+     padding-top: 
+     padding-right: 
+     padding-bottom: 
+     padding-left: ;
 
+     box-sizing: border-box; (Untuk mengkonsistenkan ukuran pada padding box model)
+
+     
