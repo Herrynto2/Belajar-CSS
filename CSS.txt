@@ -19,8 +19,10 @@
      background-color: floralwhite;                 (Warna bg)
      background-image: url(gambar/lufy.png);        (membuat bg gambar)
      background-repeat: no-repeat;                  (membuat atau menghilangkan pengulangan bg gambar)
-     background-position: top center;               (posisi bg gambar)
-     background-size: 500px;                        (ukuran bg gambar)
+     background-position: top center; x y; 0px 5px  (posisi bg gambar)
+     background-size: 500px;                         (ukuran bg gambar)
+     background-size: cover;                        (ukuran bg gambar)
+
 
 #Pseudo Class Link (project2) 
      class : link                                  (Keadaan default link)
